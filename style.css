@@ -1,0 +1,69 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Mono', monospace;
+    color: #000;
+}
+main{
+    margin: 3.5rem 7rem;
+}
+.div-texto{
+    display: flex;
+    flex-wrap: wrap;
+}
+.titulo{
+    
+    font-family: 'PT Serif';
+    font-weight: bold;
+    letter-spacing: -0.045em;
+    font-size: 2.2rem;
+}
+
+.descripcion{
+    margin-left: 20rem;
+    width: 30rem;
+}
+
+.who{
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.we-are-team{
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+
+}
+.div-imagenes{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-around;
+}
+.div-porta-imagen{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto;
+}
+.img-perfil{
+    width: 17rem;
+    height: 25rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.cargo{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    transform: rotate(90deg);
+    transform-origin: right top;
+    margin-top: 15.2rem;
+    margin-left: -12rem;
+    width: 15rem;
+    height: 2rem;
+}
+.name{
+    font-weight: bold;
+}
